@@ -62,7 +62,7 @@
             margin-bottom: 1rem;
 
             a {
-                font-size: 1.2rem;
+                font-size: 1.4rem;
             }
         }
     }

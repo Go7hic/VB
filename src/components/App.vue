@@ -21,7 +21,9 @@
     <footer>
         Copyright © {{ (new Date()).getFullYear() }}
         Powered by <a href="https://github.com/dyygtfx/VB" target="_blank">VB</a>
-
+        <p>
+            「万物之中，希望至美；至美之物，永不凋零」
+        </p>
     </footer>
 
 </template>
@@ -40,6 +42,7 @@
     }
 
     header {
+        padding: 50px 0;
         border-bottom: 1px solid #eee;
         nav {
             text-align: center;
@@ -89,7 +92,7 @@
 
     h1 {
         line-height: 3;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     h2,
