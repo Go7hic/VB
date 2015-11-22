@@ -7,7 +7,6 @@ import App from './components/App.vue';
 import ListView from './components/ListView.vue';
 import PostView from './components/PostView.vue';
 import About from './components/About.vue';
-
 // setting
 import setting from './setting';
 
@@ -32,7 +31,7 @@ router.map({
         component: PostView,
         setting
     },
-    '/about/:page': {
+    '/about': {
         name: 'about',
         component: About,
         setting

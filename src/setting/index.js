@@ -1,8 +1,8 @@
 export default  {
     blogTitle: 'Go7hic',
     config: {
-        repo: 'dyygtfx/VB',
-        path: 'posts',
-        branch: 'posts'
+        repo: 'dyygtfx/dyygtfx.github.io',
+        path: '2015',
+        branch: 'master'
     }
 };
