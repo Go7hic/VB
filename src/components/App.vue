@@ -16,7 +16,7 @@
 
     <footer>
         Copyright © {{ (new Date()).getFullYear() }}
-        Powered by <a href="https://github.com/viko16/vue-ghpages-blog" target="_blank">VB</a> 
+        Powered by <a href="https://github.com/dyygtfx/VB" target="_blank">VB</a> 
 
     </footer>
 
