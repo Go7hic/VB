@@ -49,7 +49,7 @@ store.getListByPage = (page = 1) => {
         if (sessionStorage.getItem('posts')) {
 
             // read data from cache
-            // resolve(JSON.parse(sessionStorage.posts));
+            resolve(JSON.parse(sessionStorage.posts));
 
         } else {
 
