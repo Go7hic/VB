@@ -58,6 +58,7 @@
 
     .list-view {
         li {
+            clear: both;
             margin-bottom: 1rem;
 
             a {
