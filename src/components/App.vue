@@ -3,6 +3,7 @@
     <!-- header -->
     <header>
         <h1><a v-link="{ path: '/home' }">{{ $route.setting.blogTitle }}</a></h1>
+        <a v-link="{ path: '/about' }">关于</a>
     </header>
 
     <!-- main -->
@@ -14,9 +15,9 @@
     </router-view>
 
     <footer>
-        Copyright © {{ (new Date()).getFullYear() }} /
-        Powered by <a href="https://github.com/dyygtfx/VB" target="_blank">VB</a> /
-        Author <a href="https://github.com/dyygtfx" target="_blank">Go7hic</a>
+        Copyright © {{ (new Date()).getFullYear() }}
+        Powered by <a href="https://github.com/viko16/vue-ghpages-blog" target="_blank">VB</a> 
+
     </footer>
 
 </template>

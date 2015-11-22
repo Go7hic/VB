@@ -1,24 +1,8 @@
 <template>
 
-    <!-- header -->
-    <header>
-        <h1><a v-link="{ path: '/home' }">{{ $route.setting.blogTitle }}</a></h1>
-    </header>
-
-    <!-- main -->
-    <router-view
-        class="view"
-        keep-alive
-        transition
-        transition-mode="out-in">
-    </router-view>
-
-    <footer>
-        Copyright © {{ (new Date()).getFullYear() }} /
-        Powered by <a href="https://github.com/dyygtfx/VB" target="_blank">VB</a> /
-        Author <a href="https://github.com/dyygtfx" target="_blank">Go7hic</a>
-    </footer>
-
+    <div class="about">
+        hello world
+    </div>
 </template>
 
 <style lang="less">
