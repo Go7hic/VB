@@ -15,9 +15,9 @@
     </router-view>
 
     <footer>
-        Copyright © {{ (new Date()).getFullYear() }} /
-        Powered by <a href="https://github.com/viko16/vue-ghpages-blog" target="_blank">vue-ghpages-blog</a> /
-        Author <a href="https://github.com/viko16" target="_blank">viko16</a>
+        Copyright © {{ (new Date()).getFullYear() }}
+        Powered by <a href="https://github.com/viko16/vue-ghpages-blog" target="_blank">VB</a> 
+
     </footer>
 
 </template>
