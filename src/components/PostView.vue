@@ -50,7 +50,7 @@
             data ({ to }) {
                 const title = to.params.title;
                 document.title = `${onlyTitle(title)} - ${setting.blogTitle}`;
-                this.content = 'Loading...🐶🔫';
+                this.content = '加载中';
 
                 return {
                     title,

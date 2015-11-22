@@ -6,14 +6,14 @@
         <h2 v-if="!items.length">Loading...🐹</h2>
 
         <!-- loaded -->
-        <ol v-if="items.length">
+        <ul v-if="items.length">
             <li v-for="item in items | orderBy 'name' -1" transition>
                 <a v-link="{ name: 'post', params: { title: encodeURI(item.name) }}">
                     {{ item.name | onlyTitle }}
                 </a>
                 <span class="publish-date">{{ item.name | onlyPublishDate }}</span>
             </li>
-        </ol>
+        </ul>
 
     </div>
 
@@ -55,7 +55,10 @@
 </script>
 
 <style lang="less">
-
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
     .list-view {
         li {
             clear: both;
