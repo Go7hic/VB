@@ -8,7 +8,7 @@ var date = d.getFullYear() + "/" + (d.getMonth() + 1) + "/" + d.getDate()
 var banner = "VB" + pkg.version + "\n" + date + " dyygtfx\nhttps://github.com/dyygtfx/VB.git";
 
 module.exports = {
-    entry: './src/main',
+    entry: 'src/main',
     output: {
         path: './dist',
         publicPath: 'dist/',

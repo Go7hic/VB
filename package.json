@@ -2,7 +2,7 @@
   "name": "vue-blog",
   "version": "1.0.0",
   "description": "a spa blog by githubPages & Vue.js",
-  "main": "src/main.js",
+  "main": ".src/main.js",
   "scripts": {
      "dev": "webpack-dev-server --inline --hot --quiet",
      "build": "NODE_ENV=production webpack --progress --hide-modules"
