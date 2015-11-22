@@ -1,7 +1,7 @@
 export default  {
     blogTitle: 'Go7hic',
     config: {
-        repo: 'dyygtfx/vb',
+        repo: 'dyygtfx/VB',
         path: 'posts',
         branch: 'posts'
     }
