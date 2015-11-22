@@ -1,12 +1,18 @@
 {
   "name": "vue-blog",
-  "version": "1.0.0",
-  "description": "a spa blog by githubPages & Vue.js",
-  "main": ".src/main.js",
+  "version": "0.0.4",
+  "description": "A blog based on Github pages by vue.js + webpack",
+  "main": "src/main.js",
   "scripts": {
-     "dev": "webpack-dev-server --inline --hot --quiet",
-     "build": "NODE_ENV=production webpack --progress --hide-modules"
-   },
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [
+    "blog",
+    "github",
+    "vuejs",
+    "webpack"
+  ],
   "dependencies": {
     "es6-promise": "^3.0.2",
     "marked": "^0.3.5",
@@ -27,19 +33,14 @@
     "webpack": "^1.12.3",
     "webpack-dev-server": "^1.12.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dyygtfx/VB.git"
-  },
-  "keywords": [
-    "githubpages",
-    "blog",
-    "vue"
-  ],
   "author": "Go7hic",
-  "license": "MIT",
+  "homepage": "https://github.com/dyygtfx/VB",
   "bugs": {
     "url": "https://github.com/dyygtfx/VB/issues"
   },
-  "homepage": "https://github.com/dyygtfx/VB#readme"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dyygtfx/VB.git"
+  },
+  "license": "MIT"
 }
