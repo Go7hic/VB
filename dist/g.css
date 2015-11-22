@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'webfont';
+    src: url('http://at.alicdn.com/t/o6exao62y81o47vi.eot'); /* IE9*/
+    src: url('http://at.alicdn.com/t/o6exao62y81o47vi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('http://at.alicdn.com/t/o6exao62y81o47vi.woff') format('woff'), /* chrome、firefox */
+    url('http://at.alicdn.com/t/o6exao62y81o47vi.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('http://at.alicdn.com/t/o6exao62y81o47vi.svg#NotoSansHans-DemiLight') format('svg'); /* iOS 4.1- */
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    /* 根元素大小 设置 1rem = 10px 可以根据自己修改*/
+    font-size: 10px;
+    /* 字体渲染优化 */
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;/*绘制文本时易读性优先，会启用字距调整和连字*/
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html {
+    overflow-y: scroll;
+}
+
+/* 设置默认字体 */
+body, button, input, select, textarea {
+    /* for ie */
+    font: 1.4rem/1.8 webfont, Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+/* html5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden], template {
+    display: none;
+}
+nav ul {
+    list-style: none;
+}
+
+/* 引用块 */
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+blockquote {
+    position: relative;
+    padding: 0 0 0 10px;
+    margin: 1.5rem 0;
+    border-left: 2px solid #26CC7F;
+}
+
+/* 标题 */
+h1 {
+    font-size: 3.2rem;
+}
+h2 {
+    font-size: 2.4rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 1.6rem;
+}
+h5 {
+    font-size: 1.4rem;
+}
+h6 {
+    font-size: 1.2rem;
+}
+
+/* a 标签 */
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+    outline: 0;
+}
+
+/* 根据自己的需要修改颜色 */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* 根据自己的需要修改颜色 */
+mark {
+    background-color: #ff0;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+b, strong {
+    font-weight: bold;
+}
+small {
+    font-size: 1rem;
+}
+
+/* 分割线, 根据自己的需要改动Border的颜色 */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+/* 斜体的代码类样式 */
+code, kbd, pre, samp {
+    font-family: consolas,monaco,monospace;
+    font-size: 1.4rem;
+}
+pre {
+    padding: 1.5rem;
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    overflow: auto;
+    background: #f7f7f9;
+}
+
+sub, sup {
+    font-size: 1rem;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5rem;
+}
+sub {
+    bottom: -0.25rem;
+}
+
+/* 重置表格表单类元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button {
+    overflow: visible;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+input {
+    line-height: normal;
+}
+input, select {
+    vertical-align: middle;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.5rem;
+}
+textarea {
+    overflow: auto;
+}
+optgroup {
+    font-weight: bold;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}

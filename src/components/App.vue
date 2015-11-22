@@ -2,8 +2,12 @@
 
     <!-- header -->
     <header>
-        <h1><a v-link="{ path: '/home' }">{{ $route.setting.blogTitle }}</a></h1>
-        <a v-link="{ path: '/about' }">关于</a>
+        <h1>Go7hic</h1>
+        <nav>
+            <a v-link="{ path: '/home' }">Home</a>
+            <a v-link="{ path: '/about' }">About</a>
+            <a v-link="{ path: '/booklist' }">Booklist</a>
+        </nav>
     </header>
 
     <!-- main -->
@@ -16,7 +20,7 @@
 
     <footer>
         Copyright © {{ (new Date()).getFullYear() }}
-        Powered by <a href="https://github.com/dyygtfx/VB" target="_blank">VB</a> 
+        Powered by <a href="https://github.com/dyygtfx/VB" target="_blank">VB</a>
 
     </footer>
 
@@ -37,9 +41,16 @@
 
     header {
         border-bottom: 1px solid #eee;
+        nav {
+            text-align: center;
+            a {
+                padding: 5px;
+            }
+        }
 
         h1 {
             line-height: 2;
+            text-align: center;
         }
 
         a {
