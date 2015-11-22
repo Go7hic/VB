@@ -3,6 +3,6 @@ export default  {
     config: {
         repo: 'dyygtfx/VB',
         path: 'posts',
-        branch: 'posts'
+        branch: 'master'
     }
 };
