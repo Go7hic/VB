@@ -1,5 +1,5 @@
 /**
- * get title from file name
+ * 获取 Github 文章的标题
  *
  * @param title
  * @returns {string}
@@ -11,7 +11,7 @@ export function onlyTitle(title) {
 }
 
 /**
- * get date from file name
+ * 获取 Github 文章的内容
  *
  * @param title
  * @returns {array|null}
