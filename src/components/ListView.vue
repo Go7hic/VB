@@ -3,7 +3,7 @@
     <div class="list-view">
 
         <!-- loading -->
-        <h2 v-if="!items.length">Loading...🐹</h2>
+        <h2 v-if="!items.length">玩命加载中..</h2>
 
         <!-- loaded -->
         <ul v-if="items.length">
