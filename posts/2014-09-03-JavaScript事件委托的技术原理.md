@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      理解JavaScript事件委托的技术原理
+title:      JavaScript事件委托的技术原理
 date: 2014-09-03
 description: 
 ---
