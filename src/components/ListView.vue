@@ -14,6 +14,10 @@
                 <span class="publish-date">{{ item.name | onlyPublishDate }}</span>
             </li>
         </ul>
+        <div class="nav" v-show="items.length > 0">
+            <a v-if="page > 1" :href="'#/list/' + (page - 1)">&lt; prev</a>
+            <a v-if="page < 4" :href="'#/list/' + (page + 1)">more...</a>
+        </div>
 
     </div>
 
@@ -35,6 +39,7 @@
 
         data () {
             return {
+
                 items: []
             }
         },
