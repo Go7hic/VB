@@ -80,6 +80,7 @@
             line-height: 2rem;
             letter-spacing: 1px;
             word-wrap: break-word;
+            
         }
 
         pre {

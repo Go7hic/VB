@@ -30,6 +30,7 @@
     <footer>
         Copyright © {{ (new Date()).getFullYear() }}
         Powered by <a href="#" target="_blank">VB</a>
+        <a v-link="{ path: '/about' }">About</a>
         <p>
             「万物之中，希望至美；至美之物，永不凋零」
         </p>
