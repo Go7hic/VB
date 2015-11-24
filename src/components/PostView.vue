@@ -67,6 +67,9 @@
 
     .post-view {
         margin: 3rem 0;
+        img {
+            max-width: 100%;
+        }
 
         #title {
             line-height: 2;
