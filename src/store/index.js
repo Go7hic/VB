@@ -50,6 +50,7 @@ store.getListByPage = (page = 1) => {
 
             // read data from cache
             resolve(JSON.parse(sessionStorage.posts));
+            
 
         } else {
 
@@ -62,12 +63,14 @@ store.getListByPage = (page = 1) => {
                 sessionStorage.setItem('posts', resJson);
 
                 resolve(JSON.parse(resJson));
+                console.log(JSON.parse(resJson));
             };
             xhr.onerror = () => reject;
             xhr.send();
+
 
         }
 
     });
 
-}
+};
